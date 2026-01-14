@@ -33,6 +33,32 @@ function fibsRec(num) {
   }
 }
 
+console.log(fibs(0));
+console.log(fibs(1));
+console.log(fibs(2));
+console.log(fibs(3));
+console.log(fibs(4));
+console.log(fibs(5));
+console.log(fibs(6));
+console.log(fibs(7));
+console.log(fibs(8));
+console.log(fibs(9));
+console.log(fibs(10));
+console.log(fibs(25));
+
+console.log(fibsRec(0));
+console.log(fibsRec(1));
+console.log(fibsRec(2));
+console.log(fibsRec(3));
+console.log(fibsRec(4));
+console.log(fibsRec(5));
+console.log(fibsRec(6));
+console.log(fibsRec(7));
+console.log(fibsRec(8));
+console.log(fibsRec(9));
+console.log(fibsRec(10));
+console.log(fibsRec(25));
+
 // Below is a solution I grabbed from Google after solving the above myself first. It makes a lot more sense and is less recursive work on the computer, but I
 // coult not wrap my head around this myself.
 
